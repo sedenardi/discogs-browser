@@ -1,0 +1,7 @@
+{
+  "discogs": {
+    "consumerKey": "",
+    "consumerSecret": "",
+    "callbackUrl": "/oauth_callback"
+  }
+}

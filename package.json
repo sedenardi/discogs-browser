@@ -1,0 +1,20 @@
+{
+  "name": "discogs-browser",
+  "version": "0.0.1",
+  "author": "Sanders DeNardi",
+  "description": "Better marketplace browsing.",
+  "license": "MIT",
+  "main": "discogs-browser.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sedenardi/discogs-browser.git"
+  },
+  "dependencies": {
+    "express": "~4.7.2",
+    "disconnect": "~0.5.2",
+    "underscore": "~1.7.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  }
+}
