@@ -3,5 +3,8 @@
     "consumerKey": "",
     "consumerSecret": "",
     "callbackUrl": "/oauth_callback"
+  },
+  "web": {
+    "port": 3001
   }
 }

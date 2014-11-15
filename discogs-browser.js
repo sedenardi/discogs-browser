@@ -153,6 +153,6 @@ app.get('/fetch', function(req, res) {
   }
 });
 
-app.listen(3001, function webStarted() {
-  console.log('Started server on port 3001');
+app.listen(config.web.port, function webStarted() {
+  console.log('Started server on port ' +  config.web.port);
 });
