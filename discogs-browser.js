@@ -103,7 +103,7 @@ var getInventory = function(user, page) {
       processInventory(user);
       console.log('Done processing ' + user + '\'s inventory, writing to file');
       inventories[user].fetching = false;
-      var filename = './' + user + '.json';
+      var filename = './inventories/' + user + '.json';
       fs.writeFile(filename, JSON.stringify(inventories[user],null,2), function(err) {
         if (err) {
           console.log('Error writing user file');
